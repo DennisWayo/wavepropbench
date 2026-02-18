@@ -1,0 +1,63 @@
+Python bytecode
+pycache/
+*.py[cod]
+*.so
+
+Virtual environments
+.venv/
+venv/
+env/
+ENV/
+meep-env/
+
+Conda
+*.conda
+conda-meta/
+
+macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+IDEs
+.idea/
+.vscode/
+
+Jupyter
+.ipynb_checkpoints/
+
+Matplotlib cache
+.matplotlib/
+Logs
+*.log
+
+Temporary files
+*.tmp
+*.swp
+
+Large data outputs
+data/
+*.npy
+
+Generated figure
+
+figures/
+*.png
+*.pdf
+
+MEEP runtime artifacts
+
+*.h5
+*.out
+*.ctl
+
+Coverage / testing
+
+.coverage
+htmlcov/
+
+Build artifacts
+
+build/
+dist/
+*.egg-info/
